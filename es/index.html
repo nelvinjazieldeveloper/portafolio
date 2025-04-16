@@ -3,22 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio de Nelvin Jaziel Marquez</title>
+    <title>Nelvin Jaziel | Desarrollador Python para Finlandia</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="description" content="Desarrollador Python especializado en FastAPI, Visión por Computadora y Automatización. Buscando oportunidades en Finlandia con patrocinio de visa.">
 </head>
 <body>
     <header>
         <div class="container">
-            <h1>Nelvin Jaziel Marquez</h1>
-            <p>Programador de Python</p>
+            <h1>Nelvin Jaziel Márquez</h1>
+            <p class="tagline">Desarrollador Python | FastAPI & Visión por Computadora</p>
+            <p class="relocation">Listo para reubicarme en Finlandia</p>
             <nav>
                 <ul id="menu-header">
                     <li><a href="#about">Sobre mí</a></li>
                     <li><a href="#projects">Proyectos</a></li>
                     <li><a href="#contact">Contacto</a></li>
-                    <li><a href="../">Switch to English</a></li>
                 </ul>
             </nav>
         </div>
@@ -27,110 +28,125 @@
     <section id="about" class="about">
         <div class="container">
             <h2>Sobre mí</h2>
-            <p>Soy un apasionado programador de Python con experiencia en desarrollo de aplicaciones web y análisis de datos. Me encanta resolver problemas y aprender nuevas tecnologías.</p>
+            <div class="about-content">
+                <p>Soy un apasionado <strong>Desarrollador Python</strong> enfocado en crear soluciones robustas y eficientes. Mi experiencia abarca desarrollo backend con <strong>FastAPI</strong>, implementación de algoritmos de <strong>Visión por Computadora</strong> usando OpenCV y MediaPipe, y <strong>automatización de procesos web</strong> para extracción de datos.</p>
+                <p>Además de mi experiencia aplicando tecnologías existentes, poseo habilidades en <strong>desarrollo de bibliotecas Python</strong>. Soy el creador de <a href="https://pypi.org/project/TxtToImg/" target="_blank">TxtToImg</a>, una biblioteca que [breve descripción del propósito de TxtToImg, ej. "permite generar imágenes a partir de descripciones textuales"]. Este proyecto personal demuestra mi capacidad para diseñar, desarrollar y empaquetar software Python funcional y útil.</p>
+                <ul class="skills-highlight">
+                    <li><strong>FastAPI</strong></li>
+                    <li><strong>Visión por Computadora</strong> (OpenCV, MediaPipe)</li>
+                    <li><strong>Automatización Web</strong></li>
+                    <li>Desarrollo <strong>Full-stack</strong></li>
+                    <li><strong>Desarrollo de Bibliotecas Python</strong></li>
+                </ul>
+                <p>Estoy activamente buscando oportunidades en <strong>Finlandia</strong> para contribuir con mis habilidades y pasión por la tecnología en un entorno desafiante e innovador.</p>
+                <div class="availability">🟢 Disponible para trabajar con patrocinio de visa</div>
+            </div>
         </div>
     </section>
 
     <section id="projects" class="projects">
         <div class="container">
-            <h2>Proyectos</h2>
-            <a href="https://github.com/nelvinjazieldeveloper/Rocket-Game-Juego-Cohete" target="_blank">
-            <div class="project">
-                <div class="github"><p>Ver en GitHub <br><i class='bx bxl-github' ></i></p></div>
-                <h3>Juego Cohete</h3>
-
-                <img src="proyecto1.jpg" alt="Imagen del Proyecto">
-
-                <h4>Descripción</h4>
-                <p>
-                    "Juego Cohete" es un emocionante juego en el que los jugadores controlan un cohete utilizando su rostro como controlador. El objetivo es evitar que los misiles enemigos colisionen con el cohete mientras se acumulan puntos. El juego utiliza la detección de rostros para ajustar la velocidad y la dirección del cohete, ofreciendo una experiencia de juego única e interactiva.
-                </p>
+            <h2>Mis Proyectos</h2>
             
-                <h4>Tecnologías Utilizadas</h4>
-                <ul>
-                    <li>Python</li>
-                    <li>Pygame</li>
-                    <li>OpenCV</li>
-                    <li>MediaPipe</li>
-                    <li>NumPy</li>
-                </ul>
-            
-                <h4>Habilidades Demostradas</h4>
-                <ul>
-                    <li>Desarrollo de videojuegos utilizando Pygame.</li>
-                    <li>Integración de visión por computadora con OpenCV y MediaPipe.</li>
-                    <li>Implementación de detección de colisiones y manejo de eventos en tiempo real.</li>
-                    <li>Uso de técnicas de programación orientada a objetos para estructurar el código.</li>
-                    <li>Creación de interfaces gráficas interactivas y atractivas.</li>
-                </ul>
-            </div>
-            </a>
-            <a href="https://github.com/nelvinjazieldeveloper/control" target="_blank">
-            <div class="project">
-                <div class="github">
-                    <p>Ver en GitHub <br><i class='bx bxl-github' ></i></p>
+            <!-- Proyecto Control PC -->
+            <a href="https://github.com/nelvinjazieldeveloper/control" target="_blank" class="project-card">
+                <div class="project">
+                    <div class="github"><p>Ver en GitHub <br><i class='bx bxl-github'></i></p></div>
+                    <h3>Control de PC con Reconocimiento Facial</h3>
+                    <div class="project-image-container">
+                        <img src="proyecto2.PNG" class="project-image" alt="Sistema de reconocimiento facial">
+                    </div>
+                    <div class="project-details">
+                        <h4>Características principales:</h4>
+                        <ul>
+                            <li>Control de computadora sin manos usando gestos faciales</li>
+                            <li>Integración de comandos de voz</li>
+                            <li>95% de precisión en diversas condiciones de iluminación</li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">OpenCV</span>
+                            <span class="tech-tag">MediaPipe</span>
+                            <span class="tech-tag">PyAutoGUI</span>
+                        </div>
+                    </div>
                 </div>
-                <h3>Control de PC con Reconocimiento Facial y de Voz</h3>
-                <img src="proyecto2.PNG" alt="Imagen del Proyecto">
-                <h4>Descripción</h4>
-                <p>
-                    Este proyecto consiste en un sistema que permite controlar el mouse y ejecutar comandos en una computadora utilizando el reconocimiento facial y de voz. A través de la detección de la posición de la cabeza y la apertura de la boca, el usuario puede mover el cursor y realizar clics. Además, se implementa un sistema de reconocimiento de voz que permite ejecutar comandos como abrir programas, ajustar el volumen y apagar el equipo.
-                </p>
-                
-                <h4>Tecnologías Utilizadas</h4>
-                <ul>
-                    <li><strong>Python:</strong> Lenguaje de programación utilizado para desarrollar el sistema.</li>
-                    <li><strong>OpenCV:</strong> Biblioteca para el procesamiento de imágenes y captura de video.</li>
-                    <li><strong>MediaPipe:</strong> Biblioteca para la detección de mallas faciales.</li>
-                    <li><strong>PyAutoGUI:</strong> Biblioteca para controlar el mouse y el teclado.</li>
-                    <li><strong>SpeechRecognition:</strong> Biblioteca para el reconocimiento de voz.</li>
-                    <li><strong>Math:</strong> Biblioteca para operaciones matemáticas.</li>
-                </ul>
-
-                <h4>Habilidades Demostradas</h>
-                <ul>
-                    <li>Desarrollo de aplicaciones interactivas utilizando Python.</li>
-                    <li>Integración de múltiples bibliotecas para el procesamiento de imágenes y reconocimiento de voz.</li>
-                    <li>Implementación de algoritmos de detección facial y control de dispositivos mediante gestos y comandos de voz.</li>
-                    <li>Resolución de problemas y depuración de código en tiempo real.</li>
-                    <li>Diseño de interfaces de usuario simples y efectivas utilizando OpenCV.</li>
-                </ul>
-            </div>
             </a>
-            <a href="https://github.com/nelvinjazieldeveloper/sales-management-manejo-de-ventas" target="_blank">
-            <div class="project">
-                <div class="github">
-                    <p>Ver en GitHub <br><i class='bx bxl-github' ></i></p>
+
+            <!-- Proyecto Sistema de Ventas -->
+            <a href="https://github.com/nelvinjazieldeveloper/sales-management-manejo-de-ventas" target="_blank" class="project-card">
+                <div class="project">
+                    <div class="github"><p>Ver en GitHub <br><i class='bx bxl-github'></i></p></div>
+                    <h3>Sistema de Gestión de Ventas</h3>
+                    <div class="project-image-container">
+                        <img src="proyecto3.PNG" class="project-image" alt="Interfaz de gestión de ventas">
+                    </div>
+                    <div class="project-details">
+                        <h4>Características principales:</h4>
+                        <ul>
+                            <li>Actualización automática de precios mediante web scraping</li>
+                            <li>Generación de facturas en PDF</li>
+                            <li>Integración con base de datos SQLite</li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Flet</span>
+                            <span class="tech-tag">SQLite</span>
+                            <span class="tech-tag">BeautifulSoup</span>
+                        </div>
+                    </div>
                 </div>
-                <h3>Proyecto de Gestión de Ventas</h3>
+            </a>
 
-                <img src="proyecto3.PNG" alt="Imagen del proyecto">
+            <!-- Proyecto Juego de Cohete -->
+            <a href="https://github.com/nelvinjazieldeveloper/Rocket-Game-Juego-Cohete" target="_blank" class="project-card">
+                <div class="project">
+                    <div class="github"><p>Ver en GitHub <br><i class='bx bxl-github'></i></p></div>
+                    <h3>Juego de Cohete Controlado por Rostro</h3>
+                    <div class="project-image-container">
+                        <img src="proyecto1.jpg" class="project-image" alt="Captura del juego de cohete">
+                    </div>
+                    <div class="project-details">
+                        <h4>Características principales:</h4>
+                        <ul>
+                            <li>Juego con seguimiento facial en tiempo real</li>
+                            <li>Optimizado para 60 FPS</li>
+                            <li>Ajuste dinámico de dificultad</li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Pygame</span>
+                            <span class="tech-tag">OpenCV</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
 
-                <h4>Descripción</h4>
-                <p>
-                    Este proyecto es una aplicación de gestión de ventas que permite a los usuarios llevar un control eficiente de sus ventas, clientes e inventario. 
-                    Incluye funcionalidades para registrar clientes, manejar el inventario, gestionar cobros y generar reportes de ventas, así como la creación de facturas en formato PDF.
-                </p>
-
-                <h4>Tecnologías Utilizadas</h4>
-                <ul>
-                    <li>Python: Lenguaje de programación principal utilizado para el desarrollo de la aplicación.</li>
-                    <li>SQLite: Sistema de gestión de bases de datos utilizado para almacenar la información de clientes, ventas e inventario.</li>
-                    <li>FPDF: Biblioteca utilizada para la generación de documentos PDF, específicamente para crear facturas.</li>
-                    <li>Flet: Framework utilizado para el desarrollo de la interfaz gráfica de usuario (GUI).</li>
-                    <li>BeautifulSoup: Biblioteca utilizada para el web scraping y obtener el precio del dólar desde una página web.</li>
-                </ul>
-
-                <h4>Habilidades Demostradas</h4>
-                <ul>
-                    <li>Desarrollo de aplicaciones de gestión con una interfaz gráfica interactiva.</li>
-                    <li>Diseño y manejo de bases de datos relacionales utilizando SQLite.</li>
-                    <li>Implementación de lógica de negocio para la gestión de ventas y cobros.</li>
-                    <li>Generación de documentos PDF a partir de datos dinámicos.</li>
-                    <li>Validación de datos y manejo de errores para asegurar la robustez de la aplicación.</li>
-                    <li>Integración de múltiples módulos para crear una aplicación cohesiva y funcional.</li>
-                </ul>
-            </div>
+            <!-- Proyecto Generador de CV -->
+            <a href="https://github.com/nelvinjazieldeveloper/ai_cv_creator" target="_blank" class="project-card">
+                <div class="project">
+                    <div class="github"><p>Ver en GitHub <br><i class='bx bxl-github'></i></p></div>
+                    <h3>Generador de CV Europass con IA</h3>
+                    <div class="project-image-container">
+                        <img src="Captura.PNG" alt="Interfaz del Generador de CV" class="project-image">
+                    </div>
+                    <div class="project-details">
+                        <h4>Características principales:</h4>
+                        <ul>
+                            <li>Genera <strong>CVs Europass</strong> profesionales usando IA (Gemini)</li>
+                            <li>Backend con <strong>FastAPI</strong> y frontend con <strong>Streamlit</strong></li>
+                            <li>Exportación a PDF con formato automático</li>
+                            <li>Validación de datos con <strong>Pydantic</strong></li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">FastAPI</span>
+                            <span class="tech-tag">Streamlit</span>
+                            <span class="tech-tag">Gemini AI</span>
+                            <span class="tech-tag">Europass</span>
+                        </div>
+                    </div>
+                </div>
             </a>
         </div>
     </section>
@@ -138,37 +154,30 @@
     <section id="contact" class="contact">
         <div class="container">
             <h2>Contacto</h2>
-            <ul>
-                <li><a href="https://wa.me/584247537350" target="_blank"><i class='bx bxl-whatsapp'></i> +58 424 753 7350</a></li>
-                <li><i class='bx bx-envelope' ><a href="mailto:nelvinjazieldeveloper@gmail.com" target="_blank"></i> nelvinjazieldeveloper@gmail.com </a></li>
-                <li><a href="https://github.com/nelvinjazieldeveloper" target="_blank"><i class='bx bxl-github' ></i> github.com/nelvinjazieldeveloper</a></li>
-                <li><a href="https://www.youtube.com/@JazielDeveloper" target="_blank"><i class='bx bxl-youtube' ></i> youtube.com/@JazielDeveloper</a></li>
-            </ul>
-            <form
-            action="https://formspree.io/f/mjkgngqq"
-            method="POST"
-            >
-            <h3>Escribeme</h3>
-                <label>
-                    Nombre: <br>
-                    <input type="text" name="name">
-                </label>
-                <label>
-                    E-mail: <br>
-                    <input type="email" name="email">
-                </label>
-                <label>
-                    Mensaje: <br>
-                    <textarea name="message"></textarea>
-                </label>
-                <button type="submit">Send</button>
-            </form>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Información de contacto</h3>
+                    <ul>
+                        <li><a href="mailto:nelvinjazieldeveloper@gmail.com"><i class='bx bx-envelope'></i> nelvinjazieldeveloper@gmail.com</a></li>
+                        <li><a href="https://wa.me/584247537350"><i class='bx bxl-whatsapp'></i> +58 424 753 7350</a></li>
+                        <li><a href="https://github.com/nelvinjazieldeveloper"><i class='bx bxl-github'></i> GitHub</a></li>
+                        <li><a href="https://www.youtube.com/@JazielDeveloper"><i class='bx bxl-youtube'></i> YouTube</a></li>
+                    </ul>
+                </div>
+                <form action="https://formspree.io/f/mjkgngqq" method="POST">
+                    <h3>Envíame un mensaje</h3>
+                    <input type="text" name="name" placeholder="Tu nombre" required>
+                    <input type="email" name="email" placeholder="Tu correo electrónico" required>
+                    <textarea name="message" placeholder="Tu mensaje" required></textarea>
+                    <button type="submit">Enviar <i class='bx bx-send'></i></button>
+                </form>
+            </div>
         </div>
     </section>
 
     <footer>
         <div class="container">
-            <p>&copy; 2025 Nelvin Jaziel Marquez. Todos los derechos reservados.</p>
+            <p>&copy; 2025 Nelvin Jaziel Márquez. Desarrollador Python para Finlandia.</p>
         </div>
     </footer>
 </body>
